@@ -11,7 +11,6 @@ namespace ConsoleApp18
             List<Person> person = new List<Person>()
             {
                 new Person("Farrux","Shonazarov","Muzaffar o'g'li",20),
-                new Person("Zaynabbegim","Ollaberganova","Dilmurod qizi",19)
             };
             var name = person.Select(p => new
             {
